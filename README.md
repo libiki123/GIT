@@ -7,7 +7,7 @@ Git notes:
 <br>
 --------------------------------------- Remote ---------------------------------------------------
 <br>
-- git clone							//clone the repository
+- git clone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//clone the repository
 <br>
 - git fakeTeamwork |<branch name> /& <num> [optional]|		//plop down a commit on master
 <br>
