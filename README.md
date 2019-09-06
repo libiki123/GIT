@@ -8,18 +8,18 @@ Git notes:
 --------------------------------------- Remote ---------------------------------------------------
 <br>
 - git clone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//clone the repository<br>
-- git fakeTeamwork |<branch name> /& <num> [optional]|		//plop down a commit on master<br>
+- git fakeTeamwork |<branch name> /& <num> [optional]|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//plop down a commit on master<br>
 - git fetch							//download from remote<br>
 - git pull							//short-handed for fetch + merge<br>
 	-- rebase						//short-handed for fetch + rebase<br>
-- git push							//upload your changes to remote
+- git push							//upload your changes to remote<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///////////////////////// both push and fectch////////////////////////////<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;origin <place>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//ex: git push origin master (update without checkout, "origin" is usually default)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;origin <source>:<destination>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//git the commit from source(location ^/~) and upload it (destinaiton is created if not exist)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;origin :<source>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//delete branch on remote [push], make new branch [fetch]
 <br>
-	///////////////////////// both push and fectch////////////////////////////<br>
-	   origin <place>					//ex: git push origin master (update without checkout, "origin" is usually default)<br>
-	   origin <source>:<destination>			//git the commit from source(location ^/~) and upload it (destinaiton is created if not exist)<br>
-	   origin :<source>					//delete branch on remote [push], make new branch [fetch]
+--------------------------------------- Other ----------------------------------------------------
 <br>
---------------------------------------- Other ----------------------------------------------------<br>
 - git commit							//save changes<br>
 - git branch <new branch name> <location>			//create branch<br>
 	     -f <brName> <location>  				//force to change a branch location<br>
