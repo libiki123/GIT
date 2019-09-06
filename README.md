@@ -4,6 +4,7 @@ GIT tutorial and notes
 Link: https://learngitbranching.js.org/
 	
 Git notes:
+<br>
 --------------------------------------- Remote ---------------------------------------------------
 - git clone							//clone the repository
 - git fakeTeamwork |<branch name> /& <num> [optional]|		//plop down a commit on master
@@ -15,7 +16,7 @@ Git notes:
 	   origin <place>					//ex: git push origin master (update without checkout, "origin" is usually default)
 	   origin <source>:<destination>			//git the commit from source(location ^/~) and upload it (destinaiton is created if not exist)
 	   origin :<source>					//delete branch on remote [push], make new branch [fetch]
-
+<br>
 --------------------------------------- Other ----------------------------------------------------
 - git commit							//save changes
 - git branch <new branch name> <location>			//create branch
